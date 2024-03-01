@@ -88,7 +88,7 @@ body {
 }
 #about-me p {
 	width: 80%;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 #gallery {
@@ -103,11 +103,23 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #834010;
+	background-color: #dbab27;
 	border-radius:0 ;
+	color: black;
 }
 .nav-pills .nav-link {
 	color: #000
+}
+.nav-link:hover{
+	color: #fff;
+	background-color: #dbab27;
+	border-radius:0 ;
+	cursor: pointer;
+	color: black;
+}
+.nav li:hover{
+	font-weight: bold;
+	cursor: pointer;
 }
 .item-column {
 	position: relative;
