@@ -24,7 +24,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 	<script src="/assets/Js/maugallery.min.js"></script>
-	<script src="/assets/Js/scripts.min.js"></script>
+	<script src="/assets/Js/scripts.min.js" defer></script>
 	<script type="application/ld+json">
 		{
 				"@context": "http://schema.org",
@@ -109,7 +109,7 @@
 	<section id="gallery">
 		<h2 class="title">Portfolio</h2>
 		<div class="container py-3">
-			<div class="gallery" style="display: none">
+			<div class="gallery">
 				<img data-gallery-tag="Concert" alt="un concert" loading="lazy" class="gallery-item" srcset="/assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp 1600w, /assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash_mobile.webp 400w" src="/assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg"/>
 				<img data-gallery-tag="Entreprises" alt="un homme en costume" loading="lazy" class="gallery-item" srcset="/assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp 1600w, /assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash_mobile.webp 400w" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg"/>
 				<img data-gallery-tag="Entreprises" alt="une femme souriante" loading="lazy" class="gallery-item" srcset="/assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp 1600w, /assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash_mobile.webp 400w" src="/assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg"/>
@@ -198,6 +198,7 @@
 	</section >
 </main>
 <footer>
+	<p>Copyright Nina Carducci - Tous droits réservés &copy; - <span id="actual-year">2023</span></p>
 </footer>
 </body>
 </html>

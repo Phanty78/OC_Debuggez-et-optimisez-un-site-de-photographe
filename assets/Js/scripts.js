@@ -1,3 +1,6 @@
+const displayActualYear = document.getElementById("actual-year")
+let actualYear = new Date()
+
 $(document).ready(function() {
     $('.gallery').mauGallery({
         columns: {
@@ -13,3 +16,5 @@ $(document).ready(function() {
         tagsPosition: 'top'
     });
 });
+
+displayActualYear.innerHTML = actualYear.getFullYear()
